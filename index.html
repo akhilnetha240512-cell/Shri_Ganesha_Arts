@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sher Ganesh Arts — Raikal | Handmade Bal Ganesh Idols, Jagtial</title>
+<meta name="description" content="Sher Ganesh Arts, Raikal Village, Jagtial District — handmade Bal Ganesh Bappa idols. Selfie Bappa, Peshwa Bappa, Pink Pagdi Bappa, Eco-Friendly Matti Ganesh. Sizes 1ft to 12ft. DM for customized idols.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yatra+One&family=Poppins:wght@300;400;500;600;700;800&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --saffron:#FF6F00;
+    --saffron-deep:#E25A00;
+    --gold:#E8A831;
+    --gold-bright:#FFD700;
+    --maroon:#7A1F2B;
+    --maroon-deep:#5A1420;
+    --ivory:#FFF8EC;
+    --ivory-dim:#FBEFDA;
+    --blush:#FF8FAB;
+    --blush-deep:#E85D82;
+    --charcoal:#241209;
+    --charcoal-2:#331A0D;
+    --ink:#3A2417;
+    --ok:#2E7D4F;
+    --booked:#B5482C;
+    --shadow: 0 18px 40px -14px rgba(122,31,43,.35);
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    font-family:'Poppins',sans-serif;
+    background:var(--ivory);
+    color:var(--ink);
+    overflow-x:hidden;
+  }
+  img{max-width:100%; display:block;}
+  h1,h2,h3,.display{font-family:'Yatra One', cursive; font-weight:400; letter-spacing:.5px;}
+  .eyebrow{
+    font-family:'Rajdhani',sans-serif;
+    font-weight:700; letter-spacing:.22em; text-transform:uppercase;
+    font-size:12.5px; color:var(--saffron-deep);
+  }
+  a{color:inherit; text-decoration:none;}
+  .container{max-width:1200px; margin:0 auto; padding:0 20px;}
+  ::selection{background:var(--gold-bright); color:var(--maroon-deep);}
+
+  /* ---------- Toran / marigold garland divider (signature element) ---------- */
+  .toran{
+    width:100%; height:34px; line-height:0;
+    background-repeat:repeat-x; background-size:46px 34px;
+    background-image: radial-gradient(circle at 12px 6px, var(--saffron) 0 6px, transparent 7px),
+                       radial-gradient(circle at 12px 6px, var(--gold-bright) 0 3px, transparent 4px),
+                       radial-gradient(circle at 34px 14px, #3E7D33 0 5px, transparent 6px);
+    position:relative;
+  }
+  .toran::before{
+    content:"";
+    position:absolute; top:0; left:0; right:0; height:3px;
+    background:repeating-linear-gradient(90deg, var(--maroon) 0 20px, transparent 20px 24px);
+    opacity:.35;
+  }
+
+  /* ---------- Top utility bar ---------- */
+  .topbar{
+    background:var(--charcoal); color:#f4e6c8; font-family:'Rajdhani',sans-serif;
+    font-size:13.5px; font-weight:600; letter-spacing:.03em;
+  }
+  .topbar .container{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:7px 20px; flex-wrap:wrap; gap:6px;
+  }
+  .topbar span.icon{margin-right:5px;}
+  .topbar-links{display:flex; gap:18px; flex-wrap:wrap;}
+
+  /* ---------- Header ---------- */
+  header.site{
+    position:sticky; top:0; z-index:60;
+    background:linear-gradient(180deg, var(--maroon) 0%, var(--maroon-deep) 100%);
+    box-shadow:0 4px 18px rgba(0,0,0,.25);
+  }
+  .nav-wrap{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:12px 20px; gap:16px;
+  }
+  .brand{display:flex; align-items:center; gap:12px; color:var(--ivory);}
+  .brand .om{
+    width:46px; height:46px; border-radius:50%;
+    background:radial-gradient(circle at 35% 30%, var(--gold-bright), var(--saffron) 70%);
+    display:flex; align-items:center; justify-content:center;
+    font-family:'Yatra One',cursive; font-size:24px; color:var(--maroon-deep);
+    box-shadow:0 0 0 3px rgba(255,215,0,.35);
+    flex-shrink:0;
+  }
+  .brand-text h1{font-size:20px; color:#fff; line-height:1.1;}
+  .brand-text p{font-family:'Rajdhani',sans-serif; font-size:11.5px; letter-spacing:.18em; color:var(--gold-bright); text-transform:uppercase; margin-top:2px;}
+
+  nav.main-menu{display:flex; gap:26px; font-weight:600; font-size:15px;}
+  nav.main-menu a{color:#f6e9d0; position:relative; padding:4px 0;}
+  nav.main-menu a:hover{color:var(--gold-bright);}
+  nav.main-menu a::after{
+    content:""; position:absolute; left:0; bottom:-3px; width:0; height:2px; background:var(--gold-bright);
+    transition:width .25s ease;
+  }
+  nav.main-menu a:hover::after{width:100%;}
+
+  .header-actions{display:flex; align-items:center; gap:10px;}
+  .btn{
+    display:inline-flex; align-items:center; gap:8px;
+    padding:10px 18px; border-radius:30px; font-weight:600; font-size:14.5px;
+    cursor:pointer; border:none; transition:transform .18s ease, box-shadow .18s ease;
+    white-space:nowrap;
+  }
+  .btn:hover{transform:translateY(-2px);}
+  .btn-call{background:var(--saffron); color:#fff; box-shadow:0 8px 18px -6px rgba(255,111,0,.6);}
+  .btn-whatsapp{background:#25D366; color:#fff; box-shadow:0 8px 18px -6px rgba(37,211,102,.55);}
+  .btn-insta{
+    background:linear-gradient(135deg,#F58529,#DD2A7B,#8134AF,#515BD4);
+    color:#fff; box-shadow:0 8px 18px -6px rgba(220,42,123,.5);
+  }
+  .btn-gold{background:linear-gradient(135deg, var(--gold-bright), var(--gold)); color:var(--maroon-deep); box-shadow:0 8px 20px -6px rgba(232,168,49,.6);}
+  .btn-outline{background:transparent; border:2px solid var(--ivory); color:var(--ivory);}
+  .btn-outline:hover{background:var(--ivory); color:var(--maroon-deep);}
+  .btn-block{width:100%; justify-content:center;}
+  .hamburger{display:none; flex-direction:column; gap:5px; background:none; border:none; cursor:pointer; padding:6px;}
+  .hamburger span{width:26px; height:2.5px; background:#fff; border-radius:2px;}
+
+  /* ---------- Hero ---------- */
+  .hero{
+    position:relative; min-height:88vh; display:flex; align-items:flex-end;
+    background:linear-gradient(180deg, rgba(36,18,9,.15) 0%, rgba(36,18,9,.55) 55%, rgba(36,18,9,.92) 100%),
+               url('images/hero-selfie.jpg') center 18% / cover no-repeat;
+    color:#fff;
+  }
+  .hero-inner{
+    position:relative; z-index:2; padding:70px 20px 60px; width:100%;
+    max-width:1200px; margin:0 auto;
+  }
+  .hero-badge{
+    display:inline-flex; align-items:center; gap:8px; background:rgba(255,111,0,.9);
+    padding:7px 16px; border-radius:30px; font-family:'Rajdhani',sans-serif; font-weight:700;
+    letter-spacing:.12em; font-size:12.5px; text-transform:uppercase; margin-bottom:18px;
+  }
+  .hero h2.display{
+    font-size:clamp(30px, 5.4vw, 58px); line-height:1.12; max-width:820px;
+    text-shadow:0 4px 22px rgba(0,0,0,.45); color:#fff;
+  }
+  .hero h2.display .accent{color:var(--gold-bright);}
+  .hero p.sub{
+    margin-top:16px; font-size:clamp(14px,1.8vw,18px); max-width:640px; color:#f4e4c8;
+    font-weight:400; line-height:1.6;
+  }
+  .hero-ctas{display:flex; gap:14px; flex-wrap:wrap; margin-top:30px;}
+
+  .countdown{
+    margin-top:38px; display:flex; gap:14px; flex-wrap:wrap; align-items:center;
+  }
+  .countdown .label{font-family:'Rajdhani',sans-serif; font-weight:700; letter-spacing:.14em; text-transform:uppercase; font-size:12px; color:var(--gold-bright);}
+  .cd-boxes{display:flex; gap:10px;}
+  .cd-box{
+    background:rgba(255,255,255,.08); border:1px solid rgba(255,215,0,.35);
+    backdrop-filter:blur(6px); border-radius:12px; padding:10px 14px; text-align:center; min-width:64px;
+  }
+  .cd-box .num{font-family:'Rajdhani',sans-serif; font-weight:700; font-size:26px; color:var(--gold-bright); line-height:1;}
+  .cd-box .unit{font-size:10px; letter-spacing:.12em; text-transform:uppercase; color:#f4e4c8; margin-top:3px;}
+
+  /* ---------- Section shells ---------- */
+  section{padding:70px 0;}
+  .section-head{text-align:center; max-width:680px; margin:0 auto 40px;}
+  .section-head h2{font-size:clamp(26px,4vw,40px); color:var(--maroon); margin-top:8px;}
+  .section-head p{margin-top:12px; color:#6b4f3d; font-size:15.5px; line-height:1.6;}
+  .bg-alt{background:var(--ivory-dim);}
+  .bg-dark{background:linear-gradient(180deg,var(--charcoal), var(--charcoal-2)); color:#f4e4c8;}
+  .bg-dark .section-head h2{color:#fff;}
+  .bg-dark .section-head p{color:#d8bda0;}
+
+  /* ---------- Highlights row ---------- */
+  .highlights{display:flex; gap:22px; justify-content:center; padding:26px 0 6px; flex-wrap:wrap;}
+  .hl{display:flex; flex-direction:column; align-items:center; gap:8px; width:88px;}
+  .hl-circle{
+    width:74px; height:74px; border-radius:50%; padding:3px;
+    background:conic-gradient(from 210deg, var(--saffron), var(--blush), var(--gold-bright), var(--saffron));
+    display:flex; align-items:center; justify-content:center;
+  }
+  .hl-circle-inner{
+    width:100%; height:100%; border-radius:50%; background:var(--ivory);
+    display:flex; align-items:center; justify-content:center; font-size:26px; overflow:hidden;
+  }
+  .hl-circle-inner img{width:100%; height:100%; object-fit:cover; border-radius:50%;}
+  .hl span.name{font-size:12.5px; font-weight:600; color:var(--maroon);}
+
+  /* ---------- Filter bar ---------- */
+  .filters{
+    display:flex; gap:10px; justify-content:center; flex-wrap:wrap; margin-bottom:34px;
+  }
+  .filter-pill{
+    font-family:'Rajdhani',sans-serif; font-weight:700; letter-spacing:.05em;
+    padding:9px 20px; border-radius:22px; border:2px solid var(--saffron);
+    background:transparent; color:var(--saffron-deep); cursor:pointer; font-size:14.5px;
+    transition:.2s ease;
+  }
+  .filter-pill.active, .filter-pill:hover{background:var(--saffron); color:#fff;}
+
+  /* ---------- Gallery grid ---------- */
+  .gallery-grid{
+    display:grid; grid-template-columns:repeat(3, 1fr); gap:22px;
+  }
+  .card{
+    background:#fff; border-radius:16px; overflow:hidden; box-shadow:var(--shadow);
+    border:1px solid #f1ddb8; transition:transform .25s ease, box-shadow .25s ease;
+    display:flex; flex-direction:column;
+  }
+  .card:hover{transform:translateY(-6px); box-shadow:0 26px 46px -16px rgba(122,31,43,.42);}
+  .card-photo{position:relative; aspect-ratio:4/5; overflow:hidden; cursor:zoom-in; background:#f0e2c9;}
+  .card-photo img{width:100%; height:100%; object-fit:cover; transition:transform .5s ease;}
+  .card:hover .card-photo img{transform:scale(1.08);}
+  .tag{
+    position:absolute; top:10px; left:10px; font-family:'Rajdhani',sans-serif; font-weight:700;
+    font-size:11.5px; letter-spacing:.06em; padding:4px 10px; border-radius:20px; text-transform:uppercase;
+    color:#fff; box-shadow:0 4px 10px rgba(0,0,0,.25);
+  }
+  .tag.available{background:var(--ok);}
+  .tag.booked{background:var(--booked);}
+  .model-no{
+    position:absolute; top:10px; right:10px; background:rgba(36,18,9,.75); color:var(--gold-bright);
+    font-family:'Rajdhani',sans-serif; font-weight:700; font-size:12px; padding:4px 10px; border-radius:8px;
+    letter-spacing:.04em;
+  }
+  .card-body{padding:16px 16px 18px; display:flex; flex-direction:column; gap:8px; flex:1;}
+  .card-body h4{font-size:16px; color:var(--maroon); font-family:'Poppins'; font-weight:600;}
+  .meta-row{display:flex; justify-content:space-between; align-items:center; font-family:'Rajdhani',sans-serif; font-weight:600; font-size:14px; color:#7a5b41;}
+  .price{font-size:19px; font-weight:700; color:var(--saffron-deep); font-family:'Rajdhani',sans-serif;}
+  .card-body .book-btn{
+    margin-top:6px; background:var(--ok); color:#fff; border:none; border-radius:10px;
+    padding:10px; font-weight:600; font-size:14px; display:flex; align-items:center; justify-content:center;
+    gap:8px; cursor:pointer; transition:.2s ease;
+  }
+  .card-body .book-btn:hover{background:#256a41; transform:translateY(-1px);}
+  .book-btn.is-booked{background:#c0906f; cursor:not-allowed;}
+
+  .gallery-note{text-align:center; margin-top:34px; color:#7a5b41; font-size:14.5px;}
+  .gallery-note a{color:var(--saffron-deep); font-weight:600; text-decoration:underline;}
+
+  /* ---------- Lightbox ---------- */
+  .lightbox{
+    position:fixed; inset:0; background:rgba(20,8,3,.92); z-index:200;
+    display:none; align-items:center; justify-content:center; padding:26px;
+  }
+  .lightbox.open{display:flex;}
+  .lightbox img{max-height:88vh; max-width:min(92vw,700px); border-radius:10px; box-shadow:0 30px 70px rgba(0,0,0,.6);}
+  .lightbox-close{
+    position:absolute; top:20px; right:24px; background:var(--gold-bright); color:var(--maroon-deep);
+    width:42px; height:42px; border-radius:50%; border:none; font-size:22px; cursor:pointer; font-weight:700;
+  }
+  .lightbox-caption{
+    position:absolute; bottom:26px; left:50%; transform:translateX(-50%); color:#f4e4c8;
+    font-family:'Rajdhani',sans-serif; letter-spacing:.05em; text-align:center;
+  }
+
+  /* ---------- Price table ---------- */
+  .price-table{width:100%; border-collapse:separate; border-spacing:0; background:#fff; border-radius:16px; overflow:hidden; box-shadow:var(--shadow);}
+  .price-table th, .price-table td{padding:16px 18px; text-align:left; font-size:15px;}
+  .price-table thead th{
+    background:linear-gradient(135deg, var(--saffron), var(--saffron-deep)); color:#fff;
+    font-family:'Rajdhani',sans-serif; letter-spacing:.05em; text-transform:uppercase; font-size:13.5px;
+  }
+  .price-table tbody tr:nth-child(even){background:var(--ivory-dim);}
+  .price-table tbody td:first-child{font-weight:600; color:var(--maroon);}
+  .price-table tbody td:last-child{font-weight:700; color:var(--saffron-deep); font-family:'Rajdhani',sans-serif; font-size:16px;}
+  .table-wrap{overflow-x:auto; border-radius:16px;}
+  .table-note{margin-top:16px; font-size:13.5px; color:#7a5b41; text-align:center;}
+
+  /* ---------- Custom order form ---------- */
+  .form-card{
+    background:#fff; border-radius:20px; box-shadow:var(--shadow); padding:34px; border:1px solid #f1ddb8;
+    max-width:760px; margin:0 auto;
+  }
+  .form-grid{display:grid; grid-template-columns:1fr 1fr; gap:18px;}
+  .form-grid .full{grid-column:1 / -1;}
+  label{display:block; font-family:'Rajdhani',sans-serif; font-weight:700; font-size:13px; letter-spacing:.05em; text-transform:uppercase; color:var(--maroon); margin-bottom:6px;}
+  input, select, textarea{
+    width:100%; padding:12px 14px; border-radius:10px; border:1.5px solid #e8d3ab; background:var(--ivory);
+    font-family:'Poppins'; font-size:14.5px; color:var(--ink); transition:border .2s ease;
+  }
+  input:focus, select:focus, textarea:focus{outline:none; border-color:var(--saffron);}
+  textarea{resize:vertical; min-height:90px;}
+  .file-input{
+    border:2px dashed #e8b06a; background:#fffaf0; padding:22px 14px; border-radius:12px; text-align:center;
+    font-size:13.5px; color:#8a6a48; cursor:pointer;
+  }
+  .form-submit{margin-top:24px;}
+
+  /* ---------- About ---------- */
+  .about-wrap{display:grid; grid-template-columns:1fr 1fr; gap:46px; align-items:center;}
+  .about-photo{border-radius:20px; overflow:hidden; box-shadow:var(--shadow); position:relative;}
+  .about-photo img{width:100%; height:100%; object-fit:cover;}
+  .about-text h2{font-size:clamp(26px,4vw,38px); color:var(--maroon); margin-bottom:16px;}
+  .about-text p{color:#6b4f3d; line-height:1.75; font-size:15.5px; margin-bottom:14px;}
+  .about-stats{display:flex; gap:28px; margin-top:22px; flex-wrap:wrap;}
+  .stat b{font-family:'Rajdhani',sans-serif; font-size:30px; color:var(--saffron-deep); display:block;}
+  .stat span{font-size:12.5px; color:#7a5b41; letter-spacing:.03em;}
+
+  /* ---------- Map / reach ---------- */
+  .reach-wrap{display:grid; grid-template-columns:1.1fr .9fr; gap:0; border-radius:20px; overflow:hidden; box-shadow:var(--shadow);}
+  .reach-map iframe{width:100%; height:100%; min-height:360px; border:0; display:block;}
+  .reach-info{background:var(--maroon); color:#f4e4c8; padding:36px 32px; display:flex; flex-direction:column; gap:16px; justify-content:center;}
+  .reach-info h3{color:#fff; font-size:24px;}
+  .reach-info p{font-size:14.5px; line-height:1.7; color:#e8cfae;}
+  .reach-info .actions{display:flex; gap:12px; flex-wrap:wrap; margin-top:8px;}
+
+  /* ---------- Instagram feed strip ---------- */
+  .insta-strip{display:grid; grid-template-columns:repeat(6,1fr); gap:12px;}
+  .insta-tile{aspect-ratio:1; border-radius:12px; overflow:hidden; position:relative;}
+  .insta-tile img{width:100%; height:100%; object-fit:cover; transition:transform .4s ease;}
+  .insta-tile:hover img{transform:scale(1.1);}
+  .insta-tile::after{
+    content:"❤"; position:absolute; inset:0; display:flex; align-items:center; justify-content:center;
+    background:rgba(122,31,43,0); color:#fff; font-size:22px; opacity:0; transition:.25s ease;
+  }
+  .insta-tile:hover::after{background:rgba(122,31,43,.45); opacity:1;}
+  .insta-follow{text-align:center; margin-top:30px;}
+  .insta-handle{font-family:'Rajdhani',sans-serif; font-weight:700; font-size:19px; color:var(--gold-bright);}
+
+  /* ---------- Language toggle chip ---------- */
+  .lang-toggle{
+    display:inline-flex; background:rgba(255,255,255,.12); border-radius:20px; padding:3px; font-family:'Rajdhani',sans-serif; font-weight:700; font-size:12.5px;
+  }
+  .lang-toggle button{background:none; border:none; color:#f4e4c8; padding:6px 12px; border-radius:16px; cursor:pointer;}
+  .lang-toggle button.active{background:var(--gold-bright); color:var(--maroon-deep);}
+
+  [data-te]{ } /* telugu swap target */
+
+  /* ---------- Floating buttons ---------- */
+  .floaters{
+    position:fixed; right:18px; bottom:20px; z-index:150; display:flex; flex-direction:column; gap:12px;
+  }
+  .floaters a{
+    width:54px; height:54px; border-radius:50%; display:flex; align-items:center; justify-content:center;
+    font-size:24px; color:#fff; box-shadow:0 10px 24px rgba(0,0,0,.3); animation:pulse 2.6s infinite;
+  }
+  .floaters a:nth-child(2){animation-delay:.4s;}
+  .floaters a:nth-child(3){animation-delay:.8s;}
+  .f-whatsapp{background:#25D366;}
+  .f-call{background:var(--saffron);}
+  .f-insta{background:linear-gradient(135deg,#F58529,#DD2A7B,#8134AF,#515BD4);}
+  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(255,111,0,.4);}70%{box-shadow:0 0 0 14px rgba(255,111,0,0);}100%{box-shadow:0 0 0 0 rgba(255,111,0,0);}}
+
+  /* ---------- Footer ---------- */
+  footer{background:var(--charcoal); color:#e8cfae;}
+  .footer-main{padding:56px 0 30px;}
+  .footer-grid{display:grid; grid-template-columns:1.3fr 1fr 1fr 1fr; gap:36px;}
+  .footer-brand h3{color:#fff; font-size:22px;}
+  .footer-brand p{margin-top:10px; font-size:13.5px; line-height:1.7; color:#c7ab8a;}
+  .footer-col h5{font-family:'Rajdhani',sans-serif; letter-spacing:.1em; text-transform:uppercase; color:var(--gold-bright); font-size:13px; margin-bottom:14px;}
+  .footer-col a, .footer-col p{display:block; font-size:13.5px; color:#d8bda0; margin-bottom:9px;}
+  .footer-col a:hover{color:var(--gold-bright);}
+  .seo-line{font-size:12px; color:#8a6b4d; line-height:1.9; border-top:1px solid rgba(255,255,255,.08); padding:22px 0; margin-top:10px;}
+
+  .dev-credit{background:#0c0503; padding:34px 20px; text-align:center;}
+  .dev-credit p.l1{font-weight:700; font-size:15px; color:#fff; letter-spacing:.02em;}
+  .dev-credit p.l2{font-size:13.5px; color:#b89a78; margin-top:6px;}
+  .dev-credit .btn-gold{margin-top:16px;}
+  .dev-credit p.l4{font-size:11.5px; color:#665243; margin-top:18px; line-height:1.7;}
+
+  /* ---------- Responsive ---------- */
+  @media (max-width:980px){
+    nav.main-menu{display:none;}
+    .hamburger{display:flex;}
+    .header-actions .btn-outline{display:none;}
+    .gallery-grid{grid-template-columns:repeat(2,1fr);}
+    .about-wrap, .reach-wrap{grid-template-columns:1fr;}
+    .reach-map iframe{min-height:280px;}
+    .footer-grid{grid-template-columns:1fr 1fr;}
+    .insta-strip{grid-template-columns:repeat(3,1fr);}
+  }
+  @media (max-width:600px){
+    .gallery-grid{grid-template-columns:1fr 1fr; gap:12px;}
+    .card-body{padding:10px 10px 12px;}
+    .card-body h4{font-size:13.5px;}
+    .price{font-size:16px;}
+    .form-grid{grid-template-columns:1fr;}
+    .topbar .container{justify-content:center; text-align:center;}
+    .footer-grid{grid-template-columns:1fr;}
+    .hero{min-height:96vh;}
+  }
+
+  /* mobile nav drawer */
+  .mobile-nav{
+    position:fixed; top:0; right:-320px; width:290px; height:100vh; background:var(--maroon-deep);
+    z-index:120; transition:right .3s ease; padding:80px 26px; display:flex; flex-direction:column; gap:22px;
+    box-shadow:-10px 0 30px rgba(0,0,0,.4);
+  }
+  .mobile-nav.open{right:0;}
+  .mobile-nav a{color:#f6e9d0; font-weight:600; font-size:17px;}
+  .mobile-overlay{position:fixed; inset:0; background:rgba(0,0,0,.5); z-index:110; display:none;}
+  .mobile-overlay.open{display:block;}
+
+  .ask-rate{color:var(--saffron-deep); font-weight:700;}
+  .rate-cards{display:grid; grid-template-columns:repeat(4,1fr); gap:18px; margin-top:10px;}
+  .rate-card{background:#fff; border:1px solid #f1ddb8; border-radius:16px; padding:24px 18px; text-align:center; box-shadow:var(--shadow);}
+  .rate-card .rate-icon{font-size:30px; margin-bottom:10px;}
+  .rate-card h4{font-size:15.5px; color:var(--maroon); margin-bottom:6px; font-family:'Poppins'; font-weight:600;}
+  .rate-card p{font-size:13px; color:#7a5b41;}
+  @media (max-width:700px){ .rate-cards{grid-template-columns:1fr 1fr;} }
+</style>
+</head>
+<body>
+
+<!-- ============ TOP BAR ============ -->
+<div class="topbar">
+  <div class="container">
+    <div class="topbar-links">
+      <span><span class="icon">📍</span>Raikal Village, Jagtial District, Telangana</span>
+      <span><span class="icon">📞</span>8008605147</span>
+    </div>
+    <div class="lang-toggle">
+      <button type="button" class="active" onclick="setLang('en')">EN</button>
+      <button type="button" onclick="setLang('te')">TE</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ HEADER ============ -->
+<header class="site">
+  <div class="nav-wrap container">
+    <div class="brand">
+      <div class="om">🕉</div>
+      <div class="brand-text">
+        <h1 data-te="శ్రీ గణేష్ ఆర్ట్స్">Shri Ganesha Arts</h1>
+        <p data-te="రాయికల్ • జగిత్యాల">Raikal · Jagtial</p>
+      </div>
+    </div>
+
+    <nav class="main-menu">
+      <a href="#home" data-te="హోమ్">Home</a>
+      <a href="#gallery" data-te="బప్పా కలెక్షన్">Bappa Collection</a>
+      <a href="#available" data-te="అందుబాటులో ఉంది">Available Now</a>
+      <a href="#pricing" data-te="ధరలు">Rates</a>
+      <a href="#contact" data-te="సంప్రదించండి">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <a class="btn btn-call" href="tel:+918008605147">📞 Call Now</a>
+      <a class="btn btn-outline" href="https://instagram.com/sher_ganesh_arts_rkl" target="_blank" rel="noopener">Instagram</a>
+      <button class="hamburger" onclick="toggleMobileNav()" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-overlay" id="mobileOverlay" onclick="toggleMobileNav()"></div>
+<div class="mobile-nav" id="mobileNav">
+  <a href="#home" onclick="toggleMobileNav()">Home</a>
+  <a href="#gallery" onclick="toggleMobileNav()">Bappa Collection</a>
+  <a href="#available" onclick="toggleMobileNav()">Available Now</a>
+  <a href="#pricing" onclick="toggleMobileNav()">Price List</a>
+  <a href="#custom" onclick="toggleMobileNav()">Custom Order</a>
+  <a href="#contact" onclick="toggleMobileNav()">Contact</a>
+  <a class="btn btn-whatsapp btn-block" href="https://wa.me/918008605147" target="_blank" rel="noopener">WhatsApp Us</a>
+  <a class="btn btn-insta btn-block" href="https://instagram.com/sher_ganesh_arts_rkl" target="_blank" rel="noopener">@sher_ganesh_arts_rkl</a>
+</div>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <div class="hero-inner">
+    <span class="hero-badge">🔱 Handmade in Raikal Village since generations</span>
+    <h2 class="display">Sher Ganesh Arts, Raikal<br>Trending <span class="accent">Bal Ganesh</span> Idols Handmade in Jagtial</h2>
+    <p class="sub" data-te="54+ ప్రత్యేక డిజైన్లు రాయికల్ గ్రామం నుండి | ఎకో-ఫ్రెండ్లీ మట్టి గణపతి | కస్టమైజ్డ్ విగ్రహాల కోసం DM చేయండి | రాయికల్ మండలం, జగిత్యాల జిల్లా">54+ Unique Designs from Raikal Village · Eco‑Friendly Matti Ganapathi · DM for Customized Idols · Raikal Mandal, Jagtial District</p>
+
+    <div class="hero-ctas">
+      <a href="#gallery" class="btn btn-gold">🙏 View All Bappas</a>
+      <a href="https://wa.me/918008605147?text=Jai%20Shri%20Ganesh!%20I%20want%20to%20book%20a%20Bappa%20from%20Raikal" target="_blank" rel="noopener" class="btn btn-whatsapp">💬 Book on WhatsApp</a>
+      <a href="https://instagram.com/sher_ganesh_arts_rkl" target="_blank" rel="noopener" class="btn btn-insta">📸 View Instagram</a>
+    </div>
+
+    <div class="countdown">
+      <span class="label">🪔 Ganesh Chaturthi 2026 begins in</span>
+      <div class="cd-boxes" id="countdown">
+        <div class="cd-box"><div class="num" id="cd-days">--</div><div class="unit">Days</div></div>
+        <div class="cd-box"><div class="num" id="cd-hours">--</div><div class="unit">Hrs</div></div>
+        <div class="cd-box"><div class="num" id="cd-mins">--</div><div class="unit">Min</div></div>
+        <div class="cd-box"><div class="num" id="cd-secs">--</div><div class="unit">Sec</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="toran"></div>
+
+<!-- ============ HIGHLIGHTS + GALLERY ============ -->
+<section id="gallery" class="bg-alt">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Our Bappa Collection</span>
+      <h2 data-te="మా బప్పా కలెక్షన్">54+ Handmade Designs, Straight from Raikal</h2>
+      <p data-te="ప్రతి బప్పా మా చేతులతో రాయికల్ గ్రామంలో తయారు చేయబడింది">Every idol below is our own handmade work — photographed right here in our Raikal workshop. Tap any photo to zoom, then book straight to WhatsApp.</p>
+    </div>
+
+    <div class="highlights">
+      <a class="hl" href="#gallery">
+        <div class="hl-circle"><div class="hl-circle-inner"><img src="images/RK-01.jpg" alt="Bappa highlight"></div></div>
+        <span class="name">🙏 bappa</span>
+      </a>
+      <a class="hl" href="#available">
+        <div class="hl-circle"><div class="hl-circle-inner"><img src="images/RK-06.jpg" alt="Available highlight"></div></div>
+        <span class="name">available</span>
+      </a>
+      <a class="hl" href="#pricing">
+        <div class="hl-circle"><div class="hl-circle-inner" style="font-size:28px;">💰</div></div>
+        <span class="name">prices</span>
+      </a>
+      <a class="hl" href="#custom">
+        <div class="hl-circle"><div class="hl-circle-inner" style="font-size:28px;">🎨</div></div>
+        <span class="name">custom</span>
+      </a>
+    </div>
+
+    <div class="filters" id="filters">
+      <button class="filter-pill active" data-filter="all">All</button>
+      <button class="filter-pill" data-filter="matti">Matti / Clay</button>
+      <button class="filter-pill" data-filter="small">Small 1–2ft</button>
+      <button class="filter-pill" data-filter="medium">Medium 3–5ft</button>
+      <button class="filter-pill" data-filter="large">Large 6ft+ Raja</button>
+      <button class="filter-pill" data-filter="new">New 2026</button>
+    </div>
+
+    <div class="gallery-grid" id="galleryGrid"></div>
+
+    <p class="gallery-note">Showing our current photographed pieces — we have <b>54+ designs</b> on Instagram. <a href="https://instagram.com/sher_ganesh_arts_rkl" target="_blank" rel="noopener">See the full collection →</a></p>
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" onclick="closeLightbox()">✕</button>
+  <img id="lightboxImg" src="" alt="Ganesh idol zoom">
+  <div class="lightbox-caption" id="lightboxCaption"></div>
+</div>
+
+<div class="toran"></div>
+
+<!-- ============ AVAILABLE NOW ============ -->
+<section id="available">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Ready in the Workshop</span>
+      <h2>Available Now — Book Before Chaturthi</h2>
+      <p>These idols are ready at our Raikal workshop right now. First come, first blessed — message us to reserve yours.</p>
+    </div>
+    <div class="gallery-grid" id="availableGrid"></div>
+  </div>
+</section>
+
+<div class="toran"></div>
+
+<!-- ============ PRICE TABLE ============ -->
+<section id="pricing" class="bg-alt">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Rates On Request</span>
+      <h2 data-te="ధరల వివరాలు">Every Bappa is Priced by Size &amp; Detail</h2>
+      <p>Our rates depend on the size, dress work, jewellery and finish of each idol, so we don't fix a single price online. Tell us the Model No. or size you like and we'll quote you honestly on call or WhatsApp — no hidden charges.</p>
+    </div>
+    <div class="rate-cards">
+      <div class="rate-card">
+        <div class="rate-icon">🪔</div>
+        <h4>Small — 1 ft to 2 ft</h4>
+        <p>Perfect for home puja &amp; apartments</p>
+      </div>
+      <div class="rate-card">
+        <div class="rate-icon">🙏</div>
+        <h4>Medium — 3 ft to 5 ft</h4>
+        <p>Great for bigger homes &amp; society pandals</p>
+      </div>
+      <div class="rate-card">
+        <div class="rate-icon">👑</div>
+        <h4>Large — 6 ft to 12 ft</h4>
+        <p>Raja idols for colony &amp; mandal pandals</p>
+      </div>
+      <div class="rate-card">
+        <div class="rate-icon">🌿</div>
+        <h4>Eco-Friendly Matti Ganesh</h4>
+        <p>Available in every size, on request</p>
+      </div>
+    </div>
+    <p class="table-note">📞 Call <b>8008605147</b> or tap "Ask Rate &amp; Book" on any idol above to get today's price on WhatsApp.</p>
+  </div>
+</section>
+
+<div class="toran"></div>
+
+<!-- ============ CUSTOM ORDER FORM ============ -->
+<section id="custom">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Made Just For You</span>
+      <h2 data-te="మీ కోసం ప్రత్యేకంగా">Order a Customized Bappa</h2>
+      <p>Tell us your village, size and budget — we'll design your Bappa by hand in Raikal and share progress photos before delivery.</p>
+    </div>
+
+    <form class="form-card" id="customForm" onsubmit="return submitCustomOrder(event)">
+      <div class="form-grid">
+        <div>
+          <label for="cf-name">Your Name</label>
+          <input id="cf-name" required placeholder="e.g. Ramesh Reddy">
+        </div>
+        <div>
+          <label for="cf-phone">Phone Number</label>
+          <input id="cf-phone" required type="tel" placeholder="10-digit mobile number">
+        </div>
+        <div>
+          <label for="cf-village">Your Village</label>
+          <select id="cf-village">
+            <option>Raikal</option>
+            <option>Jagtial</option>
+            <option>Korutla</option>
+            <option>Metpally</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div>
+          <label for="cf-size">Size Required</label>
+          <input id="cf-size" placeholder="e.g. 4 ft">
+        </div>
+        <div>
+          <label for="cf-budget">Your Budget</label>
+          <input id="cf-budget" placeholder="e.g. ₹10,000">
+        </div>
+        <div>
+          <label for="cf-ref">Reference Design Photo</label>
+          <input id="cf-ref" type="file" accept="image/*" class="file-input">
+        </div>
+        <div class="full">
+          <label for="cf-msg">Message</label>
+          <textarea id="cf-msg" placeholder="Tell us your color, pose or dress preference..."></textarea>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-whatsapp form-submit btn-block">💬 Send Details on WhatsApp</button>
+    </form>
+  </div>
+</section>
+
+<div class="toran"></div>
+
+<!-- ============ ABOUT ============ -->
+<section class="bg-alt">
+  <div class="container about-wrap">
+    <div class="about-photo">
+      <img src="images/RK-05.jpg" alt="Bal Ganesh idol handmade in Raikal">
+    </div>
+    <div class="about-text">
+      <span class="eyebrow">Our Story</span>
+      <h2>Made with Devotion, in Raikal Village</h2>
+      <p>We are artisans from <b>Raikal Village, Raikal Mandal, Jagtial District, Telangana</b>. Every Bappa that leaves our workshop is shaped, dressed and decorated by hand — from the first coat of clay to the last crystal on the pagdi.</p>
+      <p>From tiny 1‑ft Selfie Bappas for your study table to grand 12‑ft Raja idols for the mandal pandal, we pour the same devotion into every size. Follow our journey and see new designs first on Instagram.</p>
+      <p><a href="https://instagram.com/sher_ganesh_arts_rkl" target="_blank" rel="noopener" style="color:var(--saffron-deep); font-weight:600;">@sher_ganesh_arts_rkl →</a></p>
+      <div class="about-stats">
+        <div class="stat"><b>54+</b><span>Designs on Instagram</span></div>
+        <div class="stat"><b>1ft–12ft</b><span>All sizes made</span></div>
+        <div class="stat"><b>100%</b><span>Handmade in Raikal</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="toran"></div>
+
+<!-- ============ HOW TO REACH ============ -->
+<section id="contact">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Visit Our Workshop</span>
+      <h2 data-te="మమ్మల్ని ఎలా చేరుకోవాలి">How to Reach Us</h2>
+      <p>Come see the idols in person before Chaturthi — we're happy to show you our full workshop.</p>
+    </div>
+    <div class="reach-wrap">
+      <div class="reach-map">
+        <iframe src="https://www.google.com/maps?q=Raikal,Jagtial,Telangana%20505460&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Sher Ganesh Arts Raikal location map"></iframe>
+      </div>
+      <div class="reach-info">
+        <h3>Sher Ganesh Arts Workshop</h3>
+        <p>📍 Raikal Village, Raikal Mandal,<br>Jagtial District, Telangana 505460</p>
+        <p>Open daily during Ganeshotsav season. Call ahead if you're travelling from Jagtial, Korutla or Metpally.</p>
+        <div class="actions">
+          <a class="btn btn-gold" href="https://maps.app.goo.gl/DWJ1U3J6ysCSzhzQ7" target="_blank" rel="noopener">📍 Get Directions</a>
+          <a class="btn btn-call" href="tel:+918008605147">📞 Call 8008605147</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="toran"></div>
+
+<!-- ============ INSTAGRAM FEED ============ -->
+<section class="bg-dark">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow" style="color:var(--gold-bright);">Follow Along</span>
+      <h2>Fresh From Our Instagram</h2>
+      <p>New designs, work-in-progress reels and booking updates go up first on Instagram.</p>
+    </div>
+    <div class="insta-strip">
+      <div class="insta-tile"><img src="images/RK-07.jpg" alt="Pink Pagdi Bappa"></div>
+      <div class="insta-tile"><img src="images/RK-12.jpg" alt="Raja Bappa"></div>
+      <div class="insta-tile"><img src="images/RK-13.jpg" alt="Blue Velvet Bappa"></div>
+      <div class="insta-tile"><img src="images/RK-16.jpg" alt="Rajwadi Lion Bappa"></div>
+      <div class="insta-tile"><img src="images/RK-09.jpg" alt="Mint Peshwa Bappa"></div>
+      <div class="insta-tile"><img src="images/RK-03.jpg" alt="Jhula Bappa"></div>
+    </div>
+    <div class="insta-follow">
+      <p class="insta-handle">@sher_ganesh_arts_rkl</p>
+      <a class="btn btn-insta" style="margin-top:14px;" href="https://instagram.com/sher_ganesh_arts_rkl" target="_blank" rel="noopener">Follow on Instagram</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="container footer-main">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3>🕉 Shri Ganesha Arts</h3>
+        <p>Handmade Bal Ganesh idols from Raikal Village, Raikal Mandal, Jagtial District, Telangana. DM for customized idols — Selfie Bappa, Peshwa Bappa, Pink Pagdi Bappa &amp; Eco‑Friendly Matti Ganesh, sizes 1ft to 12ft.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Quick Links</h5>
+        <a href="#home">Home</a>
+        <a href="#gallery">Bappa Collection</a>
+        <a href="#available">Available Now</a>
+        <a href="#pricing">Rates</a>
+        <a href="#custom">Custom Order</a>
+      </div>
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <a href="tel:+918008605147">📞 8008605147</a>
+        <a href="https://wa.me/918008605147" target="_blank" rel="noopener">💬 WhatsApp</a>
+        <a href="https://instagram.com/sher_ganesh_arts_rkl" target="_blank" rel="noopener">📸 @sher_ganesh_arts_rkl</a>
+        <a href="https://maps.app.goo.gl/DWJ1U3J6ysCSzhzQ7" target="_blank" rel="noopener">📍 Get Directions</a>
+      </div>
+      <div class="footer-col">
+        <h5>Workshop Address</h5>
+        <p>Raikal Village,<br>Raikal Mandal,<br>Jagtial District,<br>Telangana 505460</p>
+      </div>
+    </div>
+    <p class="seo-line">Best Ganesh Idols in Raikal · Shri Ganesha Arts Raikal · Vinayaka Vigrahalu Raikal Mandal Jagtial · Bal Ganesh Idols Jagtial District · Matti Ganapathi Raikal · Ganesh Chaturthi Idols Jagtial · Handmade Bappa Telangana</p>
+  </div>
+
+  <div class="dev-credit">
+    <p class="l1">Developed by Akhil Netha</p>
+    <p class="l2">Liked this website? Want a website like this for your business?</p>
+    <a class="btn btn-gold" href="https://instagram.com/itzzz_akhil_netha" target="_blank" rel="noopener">Contact Me — @itzzz_akhil_netha</a>
+    <p class="l4">© 2026 Sher Ganesh Arts RKL | Raikal Mandal, Jagtial | Contact: 8008605147 | Instagram: @sher_ganesh_arts_rkl</p>
+  </div>
+</footer>
+
+<!-- ============ FLOATING BUTTONS ============ -->
+<div class="floaters">
+  <a class="f-whatsapp" href="https://wa.me/918008605147?text=Jai%20Shri%20Ganesh!%20I%20am%20interested%20in%20your%20Bappa%20idols.%20Please%20share%20the%20rates." target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+  <a class="f-call" href="tel:+918008605147" aria-label="Call">📞</a>
+  <a class="f-insta" href="https://instagram.com/sher_ganesh_arts_rkl" target="_blank" rel="noopener" aria-label="Instagram">📸</a>
+</div>
+
+<script>
+/* ================= CATALOG DATA ================= */
+const catalog = [
+  {id:"RK-01", img:"images/RK-01.jpg", name:"Selfie Bappa Mini", cat:["small","new"], size:"1.5 ft", price:2500, status:"available"},
+  {id:"RK-02", img:"images/RK-02.jpg", name:"Selfie Bappa Classic", cat:["small"], size:"1.5 ft", price:2500, status:"available"},
+  {id:"RK-03", img:"images/RK-03.jpg", name:"Jhula Bappa (Eco Matti)", cat:["small","matti","new"], size:"2 ft", price:3200, status:"available"},
+  {id:"RK-04", img:"images/RK-04.jpg", name:"Peshwa Van Bappa", cat:["medium"], size:"3 ft", price:6500, status:"available"},
+  {id:"RK-05", img:"images/RK-05.jpg", name:"Peshwa Van Bappa II", cat:["medium"], size:"3 ft", price:6500, status:"booked"},
+  {id:"RK-06", img:"images/RK-06.jpg", name:"Pink Floral Bappa", cat:["medium","new"], size:"3 ft", price:7000, status:"available"},
+  {id:"RK-07", img:"images/RK-07.jpg", name:"Pink Pagdi Bappa", cat:["medium"], size:"4 ft", price:9500, status:"available"},
+  {id:"RK-08", img:"images/RK-08.jpg", name:"Peshwa Pink Bappa", cat:["medium"], size:"4 ft", price:9800, status:"available"},
+  {id:"RK-09", img:"images/RK-09.jpg", name:"Mint Peshwa Bappa", cat:["medium","new"], size:"3 ft", price:7200, status:"available"},
+  {id:"RK-10", img:"images/RK-10.jpg", name:"Royal Cream Bappa", cat:["medium"], size:"4 ft", price:9800, status:"booked"},
+  {id:"RK-11", img:"images/RK-11.jpg", name:"Red Royal Peshwa Bappa", cat:["medium"], size:"5 ft", price:15000, status:"available"},
+  {id:"RK-12", img:"images/RK-12.jpg", name:"Ashtabhuja Raja Bappa", cat:["large","new"], size:"6 ft", price:23000, status:"available"},
+  {id:"RK-13", img:"images/RK-13.jpg", name:"Blue Velvet Raja Bappa", cat:["large"], size:"6 ft", price:24500, status:"booked"},
+  {id:"RK-14", img:"images/RK-14.jpg", name:"Golden Throne Bappa", cat:["medium"], size:"5 ft", price:16000, status:"available"},
+  {id:"RK-15", img:"images/RK-15.jpg", name:"Suryakireet Raja Bappa", cat:["large"], size:"7 ft", price:34000, status:"booked"},
+  {id:"RK-16", img:"images/RK-16.jpg", name:"Rajwadi Lion Bappa", cat:["large","new"], size:"6 ft", price:25500, status:"available"},
+];
+
+function cardHTML(item, compact){
+  const bookMsg = encodeURIComponent(`Jai Shri Ganesh! I saw Model ${item.id} (${item.name}, ${item.size}) from Raikal. Please share the rate and booking details.`);
+  const bookBtn = `<a class="book-btn" href="https://wa.me/918008605147?text=${bookMsg}" target="_blank" rel="noopener">💬 Ask Rate &amp; Book</a>`;
+  return `
+  <div class="card" data-cat="${item.cat.join(' ')}">
+    <div class="card-photo" onclick="openLightbox('${item.img}','${item.id} — ${item.name} (${item.size})')">
+      <img src="${item.img}" alt="${item.name} - ${item.id}" loading="lazy">
+      <span class="model-no">${item.id}</span>
+    </div>
+    <div class="card-body">
+      <h4>${item.name}</h4>
+      <div class="meta-row"><span>📏 ${item.size}</span><span class="ask-rate">💬 Ask Rate</span></div>
+      ${bookBtn}
+    </div>
+  </div>`;
+}
+
+function renderGallery(filter){
+  const grid = document.getElementById('galleryGrid');
+  const items = filter === 'all' ? catalog : catalog.filter(i => i.cat.includes(filter));
+  grid.innerHTML = items.map(i => cardHTML(i)).join('');
+}
+renderGallery('all');
+
+document.getElementById('availableGrid').innerHTML = catalog.slice(0,6).map(i => cardHTML(i)).join('');
+
+document.querySelectorAll('.filter-pill').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-pill').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    renderGallery(btn.dataset.filter);
+  });
+});
+
+/* ================= LIGHTBOX ================= */
+function openLightbox(src, caption){
+  document.getElementById('lightboxImg').src = src;
+  document.getElementById('lightboxCaption').textContent = caption;
+  document.getElementById('lightbox').classList.add('open');
+}
+function closeLightbox(){
+  document.getElementById('lightbox').classList.remove('open');
+}
+document.getElementById('lightbox').addEventListener('click', e => {
+  if(e.target.id === 'lightbox') closeLightbox();
+});
+
+/* ================= MOBILE NAV ================= */
+function toggleMobileNav(){
+  document.getElementById('mobileNav').classList.toggle('open');
+  document.getElementById('mobileOverlay').classList.toggle('open');
+}
+
+/* ================= COUNTDOWN — Ganesh Chaturthi 2026: Sept 14, 2026 ================= */
+const target = new Date("2026-09-14T00:00:00+05:30").getTime();
+function tickCountdown(){
+  const now = new Date().getTime();
+  const diff = target - now;
+  if(diff <= 0){
+    document.getElementById('countdown').innerHTML = '<span style="color:var(--gold-bright); font-family:Rajdhani; font-weight:700;">Ganpati Bappa Morya! 🙏</span>';
+    return;
+  }
+  const d = Math.floor(diff / (1000*60*60*24));
+  const h = Math.floor((diff % (1000*60*60*24)) / (1000*60*60));
+  const m = Math.floor((diff % (1000*60*60)) / (1000*60));
+  const s = Math.floor((diff % (1000*60)) / 1000);
+  document.getElementById('cd-days').textContent = d;
+  document.getElementById('cd-hours').textContent = String(h).padStart(2,'0');
+  document.getElementById('cd-mins').textContent = String(m).padStart(2,'0');
+  document.getElementById('cd-secs').textContent = String(s).padStart(2,'0');
+}
+tickCountdown();
+setInterval(tickCountdown, 1000);
+
+/* ================= CUSTOM ORDER FORM -> WHATSAPP ================= */
+function submitCustomOrder(e){
+  e.preventDefault();
+  const name = document.getElementById('cf-name').value;
+  const phone = document.getElementById('cf-phone').value;
+  const village = document.getElementById('cf-village').value;
+  const size = document.getElementById('cf-size').value;
+  const budget = document.getElementById('cf-budget').value;
+  const msg = document.getElementById('cf-msg').value;
+  const text = `Jai Shri Ganesh! Custom idol request:\nName: ${name}\nPhone: ${phone}\nVillage: ${village}\nSize: ${size}\nBudget: ${budget}\nMessage: ${msg}`;
+  window.open(`https://wa.me/918008605147?text=${encodeURIComponent(text)}`, '_blank');
+  return false;
+}
+
+/* ================= LANGUAGE TOGGLE ================= */
+function setLang(lang){
+  document.querySelectorAll('.lang-toggle button').forEach(b => b.classList.remove('active'));
+  event.target.classList.add('active');
+  document.querySelectorAll('[data-te]').forEach(el => {
+    const teText = el.getAttribute('data-te');
+    if(!el.dataset.enText) el.dataset.enText = el.textContent;
+    el.textContent = lang === 'te' ? teText : el.dataset.enText;
+  });
+}
+</script>
+</body>
+</html>
